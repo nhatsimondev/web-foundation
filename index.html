@@ -18,6 +18,32 @@
                 <li><a href="#">Work</a></li>
             </ul>
         </nav>
+        <nav class="navbar">
+  <div class="nav-item">Trang chủ</div>
+  <div class="nav-item">Thông báo</div>
+  <div class="nav-item">Cài đặt</div>
+</nav>
+
+<style>
+  .navbar {
+   
+    border: 5px  red ;
+    display: flex;            /* 1. Xếp các mục con nằm ngang */
+    flex-direction: row;      /* 2. Hướng từ trái sang phải */
+    justify-content: flex-end ; /* 3. Giãn đều các mục ra 2 đầu menu */
+    align-items: center;      /* 4. Căn giữa các mục theo chiều dọc, không bị lệch lên trên */
+    gap: 0px;                /* 5. Khoảng cách an toàn giữa các nút */
+    
+    height: 40px;             /* Chiều cao của thanh menu */
+    background-color: #333;   /* Màu nền menu */
+    color: white;             /* Màu chữ */
+    padding: 0 20px;          /* Khoảng cách đệm 2 đầu thanh menu */
+  }
+  .nav-item{
+    border: 5px solid red;
+  }
+</style>
+
     </header>
     <main>
         <h3>Im starting to learn html from to day</h3>
@@ -26,5 +52,7 @@
             <p>Learning is so<span style="color: red; font-size: large;" ><Strong> Hard</Strong></span></p>
         </div>
     </main>
+
+
 </body>
 </html>
